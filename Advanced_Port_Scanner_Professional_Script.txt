@@ -1,0 +1,22 @@
+ADVANCED PORT SCANNER — 5-MINUTE PRESENTATION SCRIPT
+
+SLIDE 1 — INTRODUCTION | 30 seconds
+Good morning everyone. Our project is Advanced Port Scanner, a cybersecurity tool designed to automate authorized network port discovery and present the results in a simple and organized way. It focuses on identifying accessible ports and relevant service information.
+
+SLIDE 2 — PROBLEM STATEMENT | 45 seconds
+The problem we identified is that manually checking network ports can be time-consuming, especially when many ports or systems need to be assessed. This affects network administrators, cybersecurity learners, and security teams performing authorized network checks. Our proposed solution automates TCP port checks and clearly displays the results.
+
+SLIDE 3 — PROPOSED SOLUTION | 45 seconds
+Our scanner accepts an IP address or hostname and a selected port range. It performs TCP connection checks and identifies accessible ports. The main features include target input, port-range selection, open and closed port detection, service information, and organized results.
+
+SLIDE 4 — IBM BOB | 60 seconds
+We used IBM Bob as an AI-assisted development tool during the project. It helped us with code generation and refinement, understanding the scanning logic, debugging coding issues, improving the project structure and interface, and reviewing testing scenarios. We verified the generated suggestions and integrated the useful parts into our implementation.
+
+SLIDE 5 — TECHNICAL IMPLEMENTATION | 45 seconds
+The project starts with the target IP address or hostname and selected port range. The scanner then attempts TCP connections to the specified ports. Based on the connection result, it identifies accessible ports and can associate common ports with services. Finally, the results are displayed to the user. The core implementation uses Python and socket/network programming.
+
+SLIDE 6 — LIVE DEMO | 75 seconds
+Now I will demonstrate the working project. First, I will launch the Advanced Port Scanner. Next, I will enter an authorized or local test target and select a port range. I will start the scan and show the results. I will highlight one or two detected ports and explain what the result means. Finally, I will briefly connect the live output to the scanning logic shown in the previous slide.
+
+CLOSING
+This project demonstrates how automated network scanning can simplify authorized security assessment and provide clear, useful port information. Thank you.
